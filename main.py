@@ -74,8 +74,8 @@ class MedicalApp:
         selected_patient = self.patient_var.get()
         if selected_patient != "Select Patient":
             # Placeholder for the load patient action
-            image_path = f"res/{selected_patient}.png"
-            text_path = f"res/{selected_patient}.txt"
+            image_path = f"patients/{selected_patient}.png"
+            text_path = f"patients/{selected_patient}.txt"
 
             # Load and display the image
             image = Image.open(image_path)
