@@ -13,7 +13,10 @@ https://data.mendeley.com/datasets/rscbjbr9sj/2
 class MedicalApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Medical App")
+        self.root.title("Classification DEMO")
+
+        icon_path = "res/icon.ico"
+        root.iconbitmap(icon_path)
 
         # Configure background color
         #self.root.configure(bg='lightgray')
